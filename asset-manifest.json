@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/sale-alteration/static/css/main.219d29d4.css",
+    "main.js": "/sale-alteration/static/js/main.fe6562a0.js",
+    "static/js/453.463fba1a.chunk.js": "/sale-alteration/static/js/453.463fba1a.chunk.js",
+    "static/media/mainLogo.png": "/sale-alteration/static/media/mainLogo.dc6842a99d8b3469e0b4.png",
+    "static/media/utube.svg": "/sale-alteration/static/media/utube.3fa1d803d4bc93141552c4c72d129422.svg",
+    "index.html": "/sale-alteration/index.html",
+    "main.219d29d4.css.map": "/sale-alteration/static/css/main.219d29d4.css.map",
+    "main.fe6562a0.js.map": "/sale-alteration/static/js/main.fe6562a0.js.map",
+    "453.463fba1a.chunk.js.map": "/sale-alteration/static/js/453.463fba1a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.219d29d4.css",
+    "static/js/main.fe6562a0.js"
+  ]
+}
