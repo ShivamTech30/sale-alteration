@@ -4,6 +4,9 @@ import logo from "./assites/mainLogo.png"
 import imagess from "./assites/iconss.jpeg"
 import images1 from "./assites/iconss1.png"
 import utube1 from "./assites/utube.svg"
+import chatimage from "./assites/chatImage.svg"
+
+
 
 
 
@@ -20,7 +23,7 @@ function App() {
 
   let buttons = [
     {
-      butn: <span >
+      butn: <span   >
         <span style={{ textDecoration: "underline" }}>N</span>
         ext
       </span>
@@ -129,6 +132,8 @@ function App() {
         </div>
       </div>}
 
+
+
       <div style={{ display: "flex", backgroundColor: "#5d99c969" }} contenteditable={editMode}>
         <div  >
           <img src={logo} className='h-[20px]' />
@@ -169,7 +174,7 @@ function App() {
                 <div>
                   <div className='main-header-1 '  >
                     <h1 className='w-[39%] pl-[20px]'>Party Name : <span> CASH</span></h1>
-                    <h1 onClick={(e) => EditModeFun(e)} className='w-[33%]'>Bill : <span> A002806</span>
+                    <h1 className='w-[33%]'>Bill : <span> A002806</span>
                       <spna style={{ marginLeft: "60px" }} className="text-[blue]" > [CASH]</spna>
                     </h1>
                     <h1 className='text-color-header w-[34%]'>Date &nbsp;&nbsp;&nbsp;: <span > 17-09-2024</span> </h1>
@@ -227,7 +232,9 @@ function App() {
                 </table>
                 <div className='bottom-btn1'>
                   {buttons?.map((items, id) => {
-                    return <button contenteditable={editMode} className='text-[20px]' >
+                    console.log("hgsddjd", id)
+                    return <button contenteditable={editMode} className={`${id == 0 ? "border-color" : ""} text-[20px]  bg-[gainsboro]`}
+                    >
                       {items?.butn}
                     </button>
                   })}
@@ -237,9 +244,9 @@ function App() {
                 <div className='mid-body  flex'>
                   <div className=' w-[55%]'>
                     <div className='mid-body-left  '>
-                      <p contenteditable={editMode} className='mt-[10px] pl-[20px]'>
+                      <h1 contenteditable={editMode} className='mt-[10px] pl-[20px] hiden-item '>
                         Item :
-                      </p>
+                      </h1>
                       <div className='border-bg'>
 
                       </div>
@@ -376,7 +383,7 @@ function App() {
                 </div>
 
                 <div className='h-[28px] bg-[#414F41] mt-[20px]   flex pr-[10px]' style={{ justifyContent: "space-between" }}>
-                  <div className=' '>
+                  <div className=' ' onClick={(e) => EditModeFun(e)}>
                     <img src={utube1} className='h-[59px] mt-[-7px] ml-[5px] ' />
 
                   </div>
@@ -387,8 +394,15 @@ function App() {
 
 
                 </div>
-                {/* <div className=''>
-                  chat
+                {/* <div className=' h-[23px] w-[30px] bg-[white] pb-[3px] '>
+                  
+
+                  <img src={chatimage} className='h-[30px] w-[40px]' />
+                  <div className='mt-[-20px] pl-[4px] text-[7px] font-[sans-serif] bg-[white]'>
+                    <b>   CHAT </b>
+                  </div>
+
+
                 </div> */}
                 <div>
                   <div className='flex ml-[20px] mr-[40px]' style={{ justifyContent: "space-between" }}>
@@ -400,7 +414,7 @@ function App() {
                     </div>
                   </div>
 
-                  <div className='flex ml-[20px] text-[25px] mr-[40px]' style={{ justifyContent: "space-between" }}>
+                  <div className='flex ml-[20px] text-[25px] mr-[40px] font-[system-ui]' style={{ justifyContent: "space-between" }}>
                     <div>
                       <b><i> SALE </i></b>
                     </div>
