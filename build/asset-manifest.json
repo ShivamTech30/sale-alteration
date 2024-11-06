@@ -1,18 +1,23 @@
 {
   "files": {
-    "main.css": "/sale-alteration/static/css/main.d6c8517f.css",
-    "main.js": "/sale-alteration/static/js/main.12493d69.js",
+    "main.css": "/sale-alteration/static/css/main.d4eef607.css",
+    "main.js": "/sale-alteration/static/js/main.ede2b89f.js",
     "static/js/453.463fba1a.chunk.js": "/sale-alteration/static/js/453.463fba1a.chunk.js",
     "static/media/mainLogo.png": "/sale-alteration/static/media/mainLogo.dc6842a99d8b3469e0b4.png",
-    "static/media/chatImage.svg": "/sale-alteration/static/media/chatImage.8d901b962908c698d7797e1921abcf71.svg",
+    "static/media/fax.svg": "/sale-alteration/static/media/fax.87f499f0b324bb06b8b91b7f029b26a9.svg",
+    "static/media/logout.svg": "/sale-alteration/static/media/logout.66067e19451f41617e557d9d8dce50ce.svg",
+    "static/media/shuffle.svg": "/sale-alteration/static/media/shuffle.5b0c8337414b63f55d378c195f46a56b.svg",
+    "static/media/chatImage.svg": "/sale-alteration/static/media/chatImage.919cdec15f09d4d07b1c874fa4d10416.svg",
     "static/media/utube.svg": "/sale-alteration/static/media/utube.3fa1d803d4bc93141552c4c72d129422.svg",
     "index.html": "/sale-alteration/index.html",
-    "main.d6c8517f.css.map": "/sale-alteration/static/css/main.d6c8517f.css.map",
-    "main.12493d69.js.map": "/sale-alteration/static/js/main.12493d69.js.map",
+    "static/media/up-sign.svg": "/sale-alteration/static/media/up-sign.2b75ac19e436356f238089acc21e867e.svg",
+    "static/media/play.svg": "/sale-alteration/static/media/play.9f54560bd0cd5c0ef5bae2d369612743.svg",
+    "main.d4eef607.css.map": "/sale-alteration/static/css/main.d4eef607.css.map",
+    "main.ede2b89f.js.map": "/sale-alteration/static/js/main.ede2b89f.js.map",
     "453.463fba1a.chunk.js.map": "/sale-alteration/static/js/453.463fba1a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d6c8517f.css",
-    "static/js/main.12493d69.js"
+    "static/css/main.d4eef607.css",
+    "static/js/main.ede2b89f.js"
   ]
 }
