@@ -4,7 +4,18 @@ import logo from "./assites/mainLogo.png"
 import imagess from "./assites/iconss.jpeg"
 import images1 from "./assites/iconss1.png"
 import utube1 from "./assites/utube.svg"
-import chatimage from "./assites/chatImage.svg"
+import chatimage1 from "./assites/chatImage.svg"
+import chatimage from "./assites/chatImage.png"
+import fax from "./assites/fax.svg"
+import play from "./assites/play.svg"
+import signup from "./assites/up-sign.svg"
+import shuffle from "./assites/shuffle.svg"
+import logout from "./assites/logout.svg"
+
+
+
+
+
 
 
 
@@ -119,6 +130,19 @@ function App() {
 
   return (
     <div className="App">
+
+      {/* <div className=' h-[223px] w-[230px] bg-[white] pb-[3px] mb-[200px] bg-[#497d70]   '>
+
+
+        <img src={chatimage1} className='h-[130px] w-[140px]' />
+
+        <div className='mt-[-20px] pl-[4px] text-[40px] font-[sans-serif] text-[#4b5b4b]  ' style={{ position: "absolute", top: "74px", left: "11px" }}>
+          <b>   CHAT </b>
+        </div>
+
+
+      </div> */}
+
       {editMode == "true" && <div>
         <h2>
           <center>
@@ -233,7 +257,7 @@ function App() {
                 <div className='bottom-btn1'>
                   {buttons?.map((items, id) => {
                     console.log("hgsddjd", id)
-                    return <button contenteditable={editMode} className={`${id == 0 ? "border-color" : ""} text-[20px]  bg-[gainsboro]`}
+                    return <button contenteditable={editMode} className={`${id == 0 ? "border-color" : ""} text-[20px]  bg-[#efefef]`}
                     >
                       {items?.butn}
                     </button>
@@ -382,26 +406,53 @@ function App() {
 
                 </div>
 
-                <div className='h-[28px] bg-[#414F41] mt-[20px]   flex pr-[10px]' style={{ justifyContent: "space-between" }}>
+                <div className='h-[28px] bg-[#497d70] mt-[20px]   flex pr-[10px]' style={{ justifyContent: "space-between" }}>
                   <div className=' ' onClick={(e) => EditModeFun(e)}>
                     <img src={utube1} className='h-[59px] mt-[-7px] ml-[5px] ' />
 
                   </div>
-                  <div className='pt-[4px]'>
-                    <img src={images1} className='h-[18px] ' />
-                  </div>
 
+                  <div className='flex mt-[5px]  '>
+                    <div className=' h-[17px] w-[20px]   pb-[3px]    '>
+                      <img src={shuffle} className='h-[18px] w-[30px]' />
+                    </div>
+                    <div>
+                      <img src={chatimage} className='h-[18px] w-[30px] ml-[7px] pt-[2px]' />
+
+                    </div>
+                    <div className=' h-[17px] w-[20px]   pb-[3px]     '>
+                      <img src={play} className='h-[18px] w-[20px] play-1' />
+                    </div>
+                    <div>
+                      <img src={play} className='h-[18px] w-[20px] play-2 ' />
+
+                    </div>
+
+                    <div className=' h-[17px] w-[20px]   pb-[3px]   '>
+                      <img src={signup} className='h-[18px] w-[20px] signup-1' />
+                    </div>
+                    <div>
+                      <img src={signup} className='h-[18px] w-[20px] signup-2' />
+
+                    </div>
+
+                    <div>
+                      <img src={fax} className='h-[18px] w-[20px]' />
+
+                    </div>
+                    <div>
+                      <img src={logout} className='h-[18px] w-[20px]' />
+
+                    </div>
+                  </div>
 
 
                 </div>
                 {/* <div className=' h-[23px] w-[30px] bg-[white] pb-[3px] '>
+
+
+                  <img src={chatimage} className='h-[18px] w-[30px]' />
                   
-
-                  <img src={chatimage} className='h-[30px] w-[40px]' />
-                  <div className='mt-[-20px] pl-[4px] text-[7px] font-[sans-serif] bg-[white]'>
-                    <b>   CHAT </b>
-                  </div>
-
 
                 </div> */}
                 <div>
